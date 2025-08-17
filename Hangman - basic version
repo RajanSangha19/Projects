@@ -3,7 +3,6 @@ def printletters(list,nlist):
     for i in range(nlist):
         print(list[i]," ",end="")
     print()    
-# PASTE YOUR FILLGUESS FUNCTION BELOW
 def fillguess(word, guess, length, letter):
   numletters = 0
   for i in range(length):
@@ -21,9 +20,7 @@ for i in range(40):
     print()
 # Store the number of letters in the answer
 length=len(word)
-# Create an array for the solution fill with underscores
 guess=["_"]*length
-# ADD THE REST OF THE CODE FOR THE FLOW CHART IN YOUR DESIGN HERE
 while lives > 0 and numguessed<length:
   printletters(guess,length)
   letter=input("what letter do you think it is?")
