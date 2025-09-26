@@ -1,0 +1,7 @@
+To improve the functionality of the weather station project I need a way to acsess it easily and quickly.
+I want to show the data on a screen, but I don't want a bright screen to be constantly on.
+To solve this problem I can display the information using an e ink screen. 
+E ink screens are easily controlled by a computer called a rasberry pi.
+I have one laying around (raspberry pi 3B) and the e ink screen used is the Waveshare 7.5 inch e ink screen.
+Using a raspberry pi is mostly like a computer.
+Most of the code will be transferable but I will need to learn the basics of PIL (a library that can display information and shapes on screens)
