@@ -22,7 +22,7 @@ epd.width = 800 # " - - - " you have to find out your width and height of the sc
 epd.height = 400 # " - - - " Mine was 800 and 400
 
 # for the api call you need an api key as discussed before. You must also use your longitude and latitude and put it in the url
-url = "https://api.openweathermap.org/data/3.0/onecall?lat= &lon= &exclude=minutely,alerts&units=metric&appid=9dc583e78a55989e371923950c239b06"
+url = "https://api.openweathermap.org/data/3.0/onecall?lat= &lon= &exclude=minutely,alerts&units=metric&appid= ENTER YOUR API KEY "
 response = requests.get(url)
 temp = [0] * 10
 rain = [0] * 10
@@ -109,4 +109,5 @@ while True:
         print("###############################NOT WORKING ######################################")
         traceback.print_exc()
         # the except is to ensure that if any errors come, the program will still run.
+
         # this is useful for running for long sessions
