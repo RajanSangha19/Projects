@@ -5,6 +5,8 @@ url = "https://api.openweathermap.org/data/3.0/onecall?lat= - - - &lon= - - - &e
 
 #Longitude and Latitude must be entered as well as an API key from openweather
 
+response = requests.get(url)
+
 temp = [0] * 10
 rain = [0] * 10
 wind = [0] * 10
