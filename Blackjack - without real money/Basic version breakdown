@@ -1,0 +1,8 @@
+For my 3rd project I will be creating a blackjack game (without the use of real money).
+
+In the basic version there will be two players and a house.
+I will try to simulate a real deck by making sure no card can appear more than 4 times.
+I will also stick to blackjack rules of Aces being 1 or 11 and 10, jack, queen and king being worth ten (hence why the value 10 appears more than 4 times).
+At this stage some aspects will abstract some aspects like a soring system, one player mode and other features like double down.
+
+I am creating this project as the game blackjack has a unique game play that can easily be expanded (not for the intention of gambling). My knowledge of blackjack purely comes from reading rules and guides.
