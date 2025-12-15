@@ -49,16 +49,16 @@ deck = [0] * 53 # used for simulating an actual deck
 total = [0]*2 # two players
 player = 1
 for i in range(2):
-        for x in range(2):
-            index = get_index()
-            deck[index] = 1
-            number = index_card(index)
-            card = get_a_card(number,player)
-            total[i] = total[i] + card
-        print(f"Your total is {total[i]}")
-        player = player + 1
-        while input("continue - - - "):
-            print("")
+    for x in range(2):
+        index = get_index()
+        deck[index] = 1
+        number = index_card(index)
+        card = get_a_card(number,player)
+        total[i] = total[i] + card
+    print(f"Your total is {total[i]}")
+    player = player + 1
+    while input("continue - - - "):
+        print("")
 #######################################################################################################---------------------->>>
 # house draws one card at the start 
 index = get_index()
@@ -137,3 +137,4 @@ if twentyone == False:
                 print(f"Player {x} loses")
 
                 time.sleep(0.5)
+
