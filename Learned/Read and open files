@@ -1,5 +1,0 @@
-How to read and open files --> 
-1) First you must open the file. The file must be in the same directory as the code
-2) Then you must state what file you want to open and how you want to open it : file = open("file.txt", "r"), "r" means read mode and "file" is the name of the file
-3) Now that file has the information, we can get this information by using this line of code: file.readline().strip("\n")      This reads the first line of the file (line by line).
-   The .stip("\n") removes the newline character at the end of the line.
