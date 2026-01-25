@@ -1,4 +1,9 @@
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Row 1    | Data     | More     |
-| Row 2    | Data     | More     |
+This is where I will log my progress
+
+
+| Action                    | Status      | More Information |
+|---------------------------|------------|----------------|
+| Test wireless communication | Incomplete |                |
+| Create a new body           | Incomplete |                |
+| Complete basic fixes        | Incomplete |                |
+| Disassemble the car         | Completed  |                |
