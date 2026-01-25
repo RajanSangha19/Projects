@@ -6,4 +6,4 @@ This project is split in Phases where I upgrade the car
 
 | Phase | Action | 
 |-------| ------ |
-| 1     | Repairs, body work and dissassembly|
+| 1 | Repairs, body work and dissassembly|
