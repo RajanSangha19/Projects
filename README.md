@@ -6,4 +6,6 @@ This project is split in Phases where I upgrade the car
 
 | Phase | Action | 
 |-------| ------ |
+| 2 |Getting all the basic electronics working|
 | 1 | Repairs, body work and dissassembly|
+
